@@ -1,0 +1,38 @@
+# SAFE TRAK EGY -- pinned requirements
+# Versions chosen for mutual compatibility and to avoid sklearn/LightGBM
+# unpickling warnings when loading model.pkl trained with these exact versions.
+#
+# Install:  pip install -r requirements.txt
+# Run:      streamlit run app.py
+
+# ── Web framework ──────────────────────────────────────────────────────────────
+streamlit>=1.35.0,<2.0.0
+
+# ── Data / ML ─────────────────────────────────────────────────────────────────
+# numpy: allow 1.x or 2.x -- 2.x required for Python 3.12+ pre-built wheels.
+# scikit-learn 1.4+ is compatible with both numpy 1.x and 2.x.
+# lightgbm 4.3+ supports numpy 2.x.
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0
+scikit-learn>=1.4.0
+lightgbm>=4.3.0,<5.0.0
+joblib>=1.3.0,<2.0.0
+
+# ── LangChain / Groq ───────────────────────────────────────────────────────────
+langchain-core>=0.2.0,<0.4.0
+langchain-groq>=0.1.6,<0.3.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+plotly>=5.18.0,<6.0.0
+matplotlib>=3.7.0,<4.0.0
+
+# ── PDF / Arabic text rendering ────────────────────────────────────────────────
+reportlab>=4.0.0,<5.0.0
+arabic-reshaper>=3.0.0,<4.0.0
+python-bidi>=0.4.2,<1.0.0
+
+# ── Environment / config ───────────────────────────────────────────────────────
+python-dotenv>=1.0.0,<2.0.0
+
+# ── Optional: ngrok tunnel (only needed for launch_ngrok.py) ──────────────────
+pyngrok>=7.0.0,<8.0.0
