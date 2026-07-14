@@ -121,7 +121,7 @@ This starts Streamlit and opens an ngrok HTTP tunnel. The public URL is printed 
 
 ---
 
-## Arabic Font Support (optional but recommended for PDF)
+## Arabic Font Support 
 
 For proper Arabic PDF rendering, download the Noto Naskh Arabic font and place it in `assets/`:
 
