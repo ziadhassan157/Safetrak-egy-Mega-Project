@@ -1,7 +1,7 @@
 # SAFE TRAK EGY 🚦
 
-**Smart Traffic Intelligence Dashboard** — a production-ready local Streamlit application that predicts accident severity and risk from road conditions, dispatches AI-powered operational reports, and persists every prediction to SQLite.
-
+## About
+The Automated Content Generation System will create a pipeline that uses generative models (such as GPT or GANs) to automatically generate content. The system will be trained on a specific dataset, fine-tuned using advanced techniques such as attention mechanisms, and integrated into an automated pipeline.
 ---
 
 ## Features
